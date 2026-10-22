@@ -1,16 +1,33 @@
-# epsi_shop
+# EPSI Shop
 
-A new Flutter project.
+Boutique en ligne mobile réalisée en **Flutter** (Dart) — projet d'école.
 
-## Getting Started
+## Fonctionnalités
 
-This project is a starting point for a Flutter application.
+- Catalogue de produits et navigation
+- Écrans de l'application dans `lib/page/`
+- Logique métier dans `lib/bo/`
+- Assets et polices dans `lib/assets/`
 
-A few resources to get you started if this is your first Flutter project:
+## Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Flutter**
+- **Dart**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Démarrage
+
+```bash
+flutter pub get
+flutter run
+```
+
+## Build
+
+```bash
+flutter build apk      # Android
+flutter build web      # Web
+```
+
+## Licence
+
+MIT
